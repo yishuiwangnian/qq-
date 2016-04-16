@@ -7,13 +7,42 @@
 //
 
 #import "CQZAppDelegate.h"
-
+#import "CQZviewController.h"
+#import "CQZviewController2.h"
+#import "CQZviewController3.h"
+#import "CQZviewController4.h"
+#import "CQZviewController5.h"
 @implementation CQZAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    UITabBarController *tab = [UITabBarController new];
+    self.window.rootViewController = tab;
+    
+    CQZviewController *controller1 =  [CQZviewController new];
+    CQZviewController2 *controller2 = [CQZviewController2 new];
+    CQZviewController3 *controller3 = [CQZviewController3 new];
+    CQZviewController4 *controller4 = [CQZviewController4 new];
+    CQZviewController5 *controller5 = [CQZviewController5 new];
+    
+    
+    UINavigationController *nav1 = [[UINavigationController alloc] initWithRootViewController:controller1];
+    UINavigationController *nav2 = [[UINavigationController alloc] initWithRootViewController:controller2];
+    UINavigationController *nav3 = [[UINavigationController alloc] initWithRootViewController:controller3];
+    UINavigationController *nav4 = [[UINavigationController alloc] initWithRootViewController:controller4];
+    UINavigationController *nav5 = [[UINavigationController alloc] initWithRootViewController:controller5];
+    
+    
+    
+    nav1.title = @"书架";
+    nav2.title = @"书城";
+    nav3.title = @"书单";
+    nav4.title = @"书吧";
+    nav5.title = @"娱乐";
+    
+    tab.viewControllers = @[nav1,nav2,nav3,nav4,nav5];
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;

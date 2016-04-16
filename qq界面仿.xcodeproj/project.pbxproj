@@ -19,6 +19,12 @@
 		989359DE1CC19FC5003406E5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 989359C61CC19FC5003406E5 /* UIKit.framework */; };
 		989359E61CC19FC5003406E5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 989359E41CC19FC5003406E5 /* InfoPlist.strings */; };
 		989359E81CC19FC5003406E5 /* qq___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 989359E71CC19FC5003406E5 /* qq___Tests.m */; };
+		989359F31CC1A014003406E5 /* CQZviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 989359F21CC1A014003406E5 /* CQZviewController.m */; };
+		989359F71CC1A3E7003406E5 /* CQZviewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 989359F61CC1A3E7003406E5 /* CQZviewController2.m */; };
+		989359FC1CC1A6EC003406E5 /* CQZviewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = 989359FB1CC1A6EC003406E5 /* CQZviewController3.m */; };
+		98935A001CC1A710003406E5 /* CQZviewController4.m in Sources */ = {isa = PBXBuildFile; fileRef = 989359FF1CC1A710003406E5 /* CQZviewController4.m */; };
+		98935A041CC1A730003406E5 /* CQZviewController5.m in Sources */ = {isa = PBXBuildFile; fileRef = 98935A031CC1A730003406E5 /* CQZviewController5.m */; };
+		98935A081CC1B167003406E5 /* CQZviewController6.m in Sources */ = {isa = PBXBuildFile; fileRef = 98935A071CC1B167003406E5 /* CQZviewController6.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +54,18 @@
 		989359E31CC19FC5003406E5 /* qq界面仿Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "qq界面仿Tests-Info.plist"; sourceTree = "<group>"; };
 		989359E51CC19FC5003406E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		989359E71CC19FC5003406E5 /* qq___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "qq___Tests.m"; sourceTree = "<group>"; };
+		989359F11CC1A014003406E5 /* CQZviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CQZviewController.h; sourceTree = "<group>"; };
+		989359F21CC1A014003406E5 /* CQZviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CQZviewController.m; sourceTree = "<group>"; };
+		989359F51CC1A3E7003406E5 /* CQZviewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CQZviewController2.h; sourceTree = "<group>"; };
+		989359F61CC1A3E7003406E5 /* CQZviewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CQZviewController2.m; sourceTree = "<group>"; };
+		989359FA1CC1A6EC003406E5 /* CQZviewController3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CQZviewController3.h; sourceTree = "<group>"; };
+		989359FB1CC1A6EC003406E5 /* CQZviewController3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CQZviewController3.m; sourceTree = "<group>"; };
+		989359FE1CC1A710003406E5 /* CQZviewController4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CQZviewController4.h; sourceTree = "<group>"; };
+		989359FF1CC1A710003406E5 /* CQZviewController4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CQZviewController4.m; sourceTree = "<group>"; };
+		98935A021CC1A730003406E5 /* CQZviewController5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CQZviewController5.h; sourceTree = "<group>"; };
+		98935A031CC1A730003406E5 /* CQZviewController5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CQZviewController5.m; sourceTree = "<group>"; };
+		98935A061CC1B167003406E5 /* CQZviewController6.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CQZviewController6.h; sourceTree = "<group>"; };
+		98935A071CC1B167003406E5 /* CQZviewController6.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CQZviewController6.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +95,12 @@
 		989359B61CC19FC4003406E5 = {
 			isa = PBXGroup;
 			children = (
+				98935A091CC1B16A003406E5 /* 个人 */,
+				98935A051CC1A733003406E5 /* 娱乐 */,
+				98935A011CC1A713003406E5 /* 书吧 */,
+				989359FD1CC1A6F0003406E5 /* 书单 */,
+				989359F91CC1A6BB003406E5 /* 书城 */,
+				989359F81CC1A691003406E5 /* 书架 */,
 				989359C81CC19FC5003406E5 /* qq界面仿 */,
 				989359E11CC19FC5003406E5 /* qq界面仿Tests */,
 				989359C11CC19FC5003406E5 /* Frameworks */,
@@ -142,6 +166,60 @@
 				989359E41CC19FC5003406E5 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		989359F81CC1A691003406E5 /* 书架 */ = {
+			isa = PBXGroup;
+			children = (
+				989359F11CC1A014003406E5 /* CQZviewController.h */,
+				989359F21CC1A014003406E5 /* CQZviewController.m */,
+			);
+			name = "书架";
+			sourceTree = "<group>";
+		};
+		989359F91CC1A6BB003406E5 /* 书城 */ = {
+			isa = PBXGroup;
+			children = (
+				989359F51CC1A3E7003406E5 /* CQZviewController2.h */,
+				989359F61CC1A3E7003406E5 /* CQZviewController2.m */,
+			);
+			name = "书城";
+			sourceTree = "<group>";
+		};
+		989359FD1CC1A6F0003406E5 /* 书单 */ = {
+			isa = PBXGroup;
+			children = (
+				989359FA1CC1A6EC003406E5 /* CQZviewController3.h */,
+				989359FB1CC1A6EC003406E5 /* CQZviewController3.m */,
+			);
+			name = "书单";
+			sourceTree = "<group>";
+		};
+		98935A011CC1A713003406E5 /* 书吧 */ = {
+			isa = PBXGroup;
+			children = (
+				989359FE1CC1A710003406E5 /* CQZviewController4.h */,
+				989359FF1CC1A710003406E5 /* CQZviewController4.m */,
+			);
+			name = "书吧";
+			sourceTree = "<group>";
+		};
+		98935A051CC1A733003406E5 /* 娱乐 */ = {
+			isa = PBXGroup;
+			children = (
+				98935A021CC1A730003406E5 /* CQZviewController5.h */,
+				98935A031CC1A730003406E5 /* CQZviewController5.m */,
+			);
+			name = "娱乐";
+			sourceTree = "<group>";
+		};
+		98935A091CC1B16A003406E5 /* 个人 */ = {
+			isa = PBXGroup;
+			children = (
+				98935A061CC1B167003406E5 /* CQZviewController6.h */,
+				98935A071CC1B167003406E5 /* CQZviewController6.m */,
+			);
+			name = "个人";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,7 +318,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				989359FC1CC1A6EC003406E5 /* CQZviewController3.m in Sources */,
+				98935A041CC1A730003406E5 /* CQZviewController5.m in Sources */,
+				98935A081CC1B167003406E5 /* CQZviewController6.m in Sources */,
+				989359F31CC1A014003406E5 /* CQZviewController.m in Sources */,
 				989359CF1CC19FC5003406E5 /* main.m in Sources */,
+				989359F71CC1A3E7003406E5 /* CQZviewController2.m in Sources */,
+				98935A001CC1A710003406E5 /* CQZviewController4.m in Sources */,
 				989359D31CC19FC5003406E5 /* CQZAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -438,6 +522,7 @@
 				989359ED1CC19FC5003406E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		989359EE1CC19FC5003406E5 /* Build configuration list for PBXNativeTarget "qq界面仿Tests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +531,7 @@
 				989359F01CC19FC5003406E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
