@@ -9,5 +9,14 @@
 #import <UIKit/UIKit.h>
 
 @interface CQZviewController2 : UIViewController
+{
+    UIView *view1;
+    UIView *view2;
+    UIView *view3;
+    UIView *view4;
+    
+}
+@property(nonatomic, strong)UISegmentedControl *seg;
+
 
 @end

@@ -25,6 +25,8 @@
 		98935A001CC1A710003406E5 /* CQZviewController4.m in Sources */ = {isa = PBXBuildFile; fileRef = 989359FF1CC1A710003406E5 /* CQZviewController4.m */; };
 		98935A041CC1A730003406E5 /* CQZviewController5.m in Sources */ = {isa = PBXBuildFile; fileRef = 98935A031CC1A730003406E5 /* CQZviewController5.m */; };
 		98935A081CC1B167003406E5 /* CQZviewController6.m in Sources */ = {isa = PBXBuildFile; fileRef = 98935A071CC1B167003406E5 /* CQZviewController6.m */; };
+		98C469581CC2051F00E24457 /* CQZTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 98C469561CC2051F00E24457 /* CQZTableViewCell.m */; };
+		98C469591CC2051F00E24457 /* CQZTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98C469571CC2051F00E24457 /* CQZTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +68,9 @@
 		98935A031CC1A730003406E5 /* CQZviewController5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CQZviewController5.m; sourceTree = "<group>"; };
 		98935A061CC1B167003406E5 /* CQZviewController6.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CQZviewController6.h; sourceTree = "<group>"; };
 		98935A071CC1B167003406E5 /* CQZviewController6.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CQZviewController6.m; sourceTree = "<group>"; };
+		98C469551CC2051F00E24457 /* CQZTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CQZTableViewCell.h; sourceTree = "<group>"; };
+		98C469561CC2051F00E24457 /* CQZTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CQZTableViewCell.m; sourceTree = "<group>"; };
+		98C469571CC2051F00E24457 /* CQZTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CQZTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,6 +178,9 @@
 			children = (
 				989359F11CC1A014003406E5 /* CQZviewController.h */,
 				989359F21CC1A014003406E5 /* CQZviewController.m */,
+				98C469551CC2051F00E24457 /* CQZTableViewCell.h */,
+				98C469561CC2051F00E24457 /* CQZTableViewCell.m */,
+				98C469571CC2051F00E24457 /* CQZTableViewCell.xib */,
 			);
 			name = "书架";
 			sourceTree = "<group>";
@@ -300,6 +308,7 @@
 			files = (
 				989359CD1CC19FC5003406E5 /* InfoPlist.strings in Resources */,
 				989359D51CC19FC5003406E5 /* Images.xcassets in Resources */,
+				98C469591CC2051F00E24457 /* CQZTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,6 +329,7 @@
 			files = (
 				989359FC1CC1A6EC003406E5 /* CQZviewController3.m in Sources */,
 				98935A041CC1A730003406E5 /* CQZviewController5.m in Sources */,
+				98C469581CC2051F00E24457 /* CQZTableViewCell.m in Sources */,
 				98935A081CC1B167003406E5 /* CQZviewController6.m in Sources */,
 				989359F31CC1A014003406E5 /* CQZviewController.m in Sources */,
 				989359CF1CC19FC5003406E5 /* main.m in Sources */,
