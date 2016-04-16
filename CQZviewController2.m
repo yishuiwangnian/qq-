@@ -26,7 +26,6 @@
     
     seg.selectedSegmentIndex = 0;
     
-    [seg addTarget:self action:@selector(onChange:) forControlEvents:UIControlEventAllEvents];
     
     view1.frame = CGRectMake(200, 200, 200, 200);
     view1.backgroundColor = [UIColor redColor];
