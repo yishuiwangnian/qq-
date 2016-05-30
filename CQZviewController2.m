@@ -27,10 +27,18 @@
     seg.selectedSegmentIndex = 0;
     
     [seg addTarget:self action:@selector(onChange:) forControlEvents:UIControlEventValueChanged];
-    
-    view1.frame = CGRectMake(200, 200, 200, 200);
+    //FIX:view1 没有初始化
+    view1 = [[UIView alloc]initWithFrame:CGRectMake(0, 0, 200, 200)];
+    view1.center = self.view.center;
+//    view1.frame = CGRectMake(200, 200, 200, 200);
     view1.backgroundColor = [UIColor redColor];
     
+    
+    view2 = [[UIView alloc]initWithFrame:view1.bounds];
+    view2.backgroundColor = [UIColor purpleColor];
+    view2.center = view1.center;
+    
+    [self.view addSubview:view2];
     [self.view addSubview:view1];
     
     [self.view addSubview:seg];
@@ -43,11 +51,15 @@
         case 0:
             [self.view bringSubviewToFront:view1];
             break;
-            
+        case 1:{
+            //TODO:增加动画效果
+            [self.view exchangeSubviewAtIndex:0 withSubviewAtIndex:1];
+        }
         default:
             break;
     }
-    [self.view bringSubviewToFront:segmneted];
+    [self.view bringSubviewToFront:segmneted];//NOTE:这句干嘛的？
+    //TODO:每个segment关联一个view，实现点击时不同view切换的时候的动画，透明度、大小、旋转等动画。查看UIView文档
 }
 
 
